@@ -184,7 +184,7 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 Evans Manyala - [Github](https://github.com/evans-manyala) / [Twitter](https://twitter.com/evans_manyala)
 
-Fourth part of Airbnb Evans Manyala
+Fourth part of Airbnb - Evans Manyala
 
 ## License
 
