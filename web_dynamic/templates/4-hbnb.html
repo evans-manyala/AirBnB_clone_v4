@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBNB</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/3-header.css') }}">
+    <!-- Link to custom JavaScript -->
+    <script src="{{ url_for('static', filename='scripts/4-hbnb.js') }}"></script>
+</head>
+<body>
+    <header class="header">
+        <!-- New div for API status -->
+        <div id="api_status" class="available"></div>
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">HBNB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">List</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Content area -->
+    <div class="container">
+        <h1>Welcome to HBNB!</h1>
+        <div class="amenities">
+            <label for="amenity1"><input type="checkbox" id="amenity1" name="amenity" value="1"> Amenity 1</label>
+            <label for="amenity2"><input type="checkbox" id="amenity2" name="amenity" value="2"> Amenity 2</label>
+            <!-- Add more checkboxes as needed -->
+            <button id="searchBtn">Search with Amenities</button>
+        </div>
+        <section class="places"></section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 HBNB. All rights reserved.</p>
+    </footer>
+</body>
+</html>
