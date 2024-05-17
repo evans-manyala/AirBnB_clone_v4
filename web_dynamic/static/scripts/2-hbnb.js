@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const apiUrl = 'http://0.0.0.0:5001/api/v1/status/';
+  const HOST = 54.172.62.80;
+  const apiUrl = 'http://${HOST}:5001/api/v1/status/';
 
   // Function to fetch API status and update div#api_status
   async function checkApiStatus () {
